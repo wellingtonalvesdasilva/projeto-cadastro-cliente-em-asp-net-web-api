@@ -47,6 +47,7 @@
 
 * Precisa ter o Visual Studio 2017 ou 2015
 * Abrir a solução
+* Clicar com o botão direto na solução e clicar em "Restore Nuget Packages", com isso será baixado os pacotes e suas dependências
 * Em sequência abrir o Package Manager Console, e digitar:
    Update-Database (no Default Project: Api)
 * Com isso será criado o banco de dados em SQL Server no seu local( no meu caso é (LocalDb)\v12.0)
