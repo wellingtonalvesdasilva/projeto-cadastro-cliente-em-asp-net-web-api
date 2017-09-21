@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.ClienteController.Get">
+            <summary>
+            Consultar Todos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ClienteController.Get(System.Int64)">
+            <summary>
+            Consultar por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ClienteController.Delete(System.Int64)">
+            <summary>
+            Deletar um registro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ClienteController.Post(Api.Models.ClienteEnvelope)">
+            <summary>
+            Criar um registro
+            </summary>
+            <param name="entidade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.ClienteController.Put(Api.Models.ClienteEnvelope,System.Int64)">
+            <summary>
+            Atualizar um registro
+            </summary>
+            <param name="cliente"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
